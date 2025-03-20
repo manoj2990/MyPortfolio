@@ -184,24 +184,25 @@ export default function Page() {
           Contact
         </div>
         <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">
-          Let's Connect
+        {"Let's Connect"}
         </h2>
         <p className="mx-auto max-w-[600px] text-muted-foreground md:text-lg lg:text-base xl:text-lg">
-          Let's chat about projects, tech, or opportunities! Feel free to{" "}
-          <Link
-            href={DATA.contact.social.email.url}
-            className="text-blue-500 hover:underline"
-          >
-            reach out via Email
-          </Link>
-          , or check out my{" "}
-          <Link
-            href={`${process.env.NEXT_PUBLIC_LINKEDIN_URL}`}
-            className="text-blue-500 hover:underline"
-          >
-            connect on LinkedIn
-          </Link>
-        </p>
+  {"Let's chat about projects, tech, or opportunities! Feel free to "}
+  <Link
+    href={DATA.contact.social.email.url}
+    className="text-blue-500 hover:underline"
+  >
+    reach out via Email
+  </Link>
+  , or check out my{" "}
+  <Link
+    href={`${process.env.NEXT_PUBLIC_LINKEDIN_URL}`}
+    className="text-blue-500 hover:underline"
+  >
+    connect on LinkedIn
+  </Link>
+</p>
+
       </div>
     </BlurFade>
   </div>
