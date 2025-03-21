@@ -77,6 +77,7 @@ const BlurFadeText = ({
         >
           {text}
         </motion.span>
+        
       </AnimatePresence>
     </div>
   );

@@ -1,5 +1,5 @@
 import { Icons } from "@/components/icons";
-import { HomeIcon, NotebookIcon } from "lucide-react";
+import { HomeIcon, NotebookIcon,Download } from "lucide-react";
 
 export const DATA = {
   name: "Manoj Kumar",
@@ -38,6 +38,7 @@ export const DATA = {
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
     { href: "/blog", icon: NotebookIcon, label: "Blog" },
+    { href: "https://drive.google.com/file/d/1rUJuCW5lCzBHml4dM7m1iVOfHAsQqXLt/view?usp=sharing", icon: Download, label: "Resume" },
   ],
   contact: {
     email: process.env.NEXT_PUBLIC_USER_EMAIL,
@@ -57,13 +58,6 @@ export const DATA = {
 
         navbar: true,
       },
-      // X: {
-      //   name: "X",
-      //   url: process.env.NEXT_PUBLIC_X_URL,
-      //   icon: Icons.x,
-
-      //   navbar: true,
-      // },
       email: {
         name:"Send Email",
         url:`mailto:${process.env.NEXT_PUBLIC_USER_EMAIL}`,
