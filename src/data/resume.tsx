@@ -75,8 +75,8 @@ export const DATA = {
       href: "https://www.ctae.ac.in/",
       degree: "B.Tech in Artificial Intelligence & Data Science",
       logoUrl: "https://upload.wikimedia.org/wikipedia/commons/8/8e/College_of_Technology_%26_Engineering%2C_Udaipur.png",
-      start: "2020",
-      end: "2024",
+      start: "2021",
+      end: "2025",
     },
     {
       school: "Chhatrapati Shivaji sr. sec school",
